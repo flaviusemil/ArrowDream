@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AC099DEF85DC5D2D10F690A /* Pods_ArrowDreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF0CA84A3D63BC291D045A9 /* Pods_ArrowDreamTests.framework */; };
+		1EFFFF296FEB98CBFD96BD51 /* Pods_ArrowDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7483D509CFF0CD4DFF5E8B /* Pods_ArrowDream.framework */; };
+		9088026FAD5370CF1003AB20 /* Pods_ArrowDreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D30C7D98D0F37F3A96BE812 /* Pods_ArrowDreamUITests.framework */; };
+		DB17D8E21DD300A500183207 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB17D8E11DD300A500183207 /* Extensions.swift */; };
+		DB1AB9081DD606380073B172 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1AB9071DD606380073B172 /* MainController.swift */; };
+		DB3BE89F1DD39AFC0052481C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3BE89E1DD39AFC0052481C /* LoginView.swift */; };
 		DB80D1871DD10EAC004B86B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80D1861DD10EAC004B86B6 /* AppDelegate.swift */; };
-		DB80D1891DD10EAC004B86B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80D1881DD10EAC004B86B6 /* ViewController.swift */; };
+		DB80D1891DD10EAC004B86B6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80D1881DD10EAC004B86B6 /* LoginController.swift */; };
 		DB80D18C1DD10EAC004B86B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB80D18A1DD10EAC004B86B6 /* Main.storyboard */; };
 		DB80D18E1DD10EAC004B86B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB80D18D1DD10EAC004B86B6 /* Assets.xcassets */; };
 		DB80D1911DD10EAC004B86B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB80D18F1DD10EAC004B86B6 /* LaunchScreen.storyboard */; };
 		DB80D19C1DD10EAD004B86B6 /* ArrowDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80D19B1DD10EAD004B86B6 /* ArrowDreamTests.swift */; };
 		DB80D1A71DD10EAD004B86B6 /* ArrowDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80D1A61DD10EAD004B86B6 /* ArrowDreamUITests.swift */; };
+		DB80D1B51DD1119D004B86B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB80D1B41DD1119D004B86B6 /* GoogleService-Info.plist */; };
+		DB9BA91F1DE8260A00285AFB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BA91E1DE8260A00285AFB /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CB2652176C0E59C8D1323C9 /* Pods-ArrowDreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrowDreamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrowDreamTests/Pods-ArrowDreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		35543E80E78BBE1EF95E65B5 /* Pods-ArrowDreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrowDreamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrowDreamUITests/Pods-ArrowDreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B7483D509CFF0CD4DFF5E8B /* Pods_ArrowDream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArrowDream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		552DEB383B47BB7F5043877A /* Pods-ArrowDreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrowDreamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrowDreamUITests/Pods-ArrowDreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C40A52D981AA4111C4348C5 /* Pods-ArrowDreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrowDreamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrowDreamTests/Pods-ArrowDreamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		620AA3F374D48244EBD8938E /* Pods-ArrowDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrowDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrowDream/Pods-ArrowDream.debug.xcconfig"; sourceTree = "<group>"; };
+		8D30C7D98D0F37F3A96BE812 /* Pods_ArrowDreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArrowDreamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF0CA84A3D63BC291D045A9 /* Pods_ArrowDreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArrowDreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3BFFD5751F9AC5CD0365D45 /* Pods-ArrowDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrowDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrowDream/Pods-ArrowDream.release.xcconfig"; sourceTree = "<group>"; };
+		DB17D8E11DD300A500183207 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DB1AB9071DD606380073B172 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		DB3BE89E1DD39AFC0052481C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DB80D1831DD10EAC004B86B6 /* ArrowDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrowDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB80D1861DD10EAC004B86B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB80D1881DD10EAC004B86B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB80D1881DD10EAC004B86B6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		DB80D18B1DD10EAC004B86B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB80D18D1DD10EAC004B86B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB80D1901DD10EAC004B86B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,9 @@
 		DB80D1A21DD10EAD004B86B6 /* ArrowDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrowDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB80D1A61DD10EAD004B86B6 /* ArrowDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowDreamUITests.swift; sourceTree = "<group>"; };
 		DB80D1A81DD10EAD004B86B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB80D1B41DD1119D004B86B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB80D1B61DD111F2004B86B6 /* ArrowDream.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArrowDream.entitlements; sourceTree = "<group>"; };
+		DB9BA91E1DE8260A00285AFB /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFFFF296FEB98CBFD96BD51 /* Pods_ArrowDream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC099DEF85DC5D2D10F690A /* Pods_ArrowDreamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +93,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9088026FAD5370CF1003AB20 /* Pods_ArrowDreamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C1E827190952537D0DC69BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B7483D509CFF0CD4DFF5E8B /* Pods_ArrowDream.framework */,
+				AEF0CA84A3D63BC291D045A9 /* Pods_ArrowDreamTests.framework */,
+				8D30C7D98D0F37F3A96BE812 /* Pods_ArrowDreamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB17D8E01DD3008D00183207 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DB17D8E11DD300A500183207 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		DB3BE89B1DD38CB20052481C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB3BE89E1DD39AFC0052481C /* LoginView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DB3BE89C1DD38CBB0052481C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BA91E1DE8260A00285AFB /* CustomButton.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DB3BE89D1DD38CC10052481C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB80D1881DD10EAC004B86B6 /* LoginController.swift */,
+				DB1AB9071DD606380073B172 /* MainController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		DB80D17A1DD10EAC004B86B6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +150,8 @@
 				DB80D19A1DD10EAD004B86B6 /* ArrowDreamTests */,
 				DB80D1A51DD10EAD004B86B6 /* ArrowDreamUITests */,
 				DB80D1841DD10EAC004B86B6 /* Products */,
+				EFF5C13CEA5E75B5F00805AF /* Pods */,
+				9C1E827190952537D0DC69BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +168,17 @@
 		DB80D1851DD10EAC004B86B6 /* ArrowDream */ = {
 			isa = PBXGroup;
 			children = (
+				DB17D8E01DD3008D00183207 /* Helpers */,
+				DB3BE89C1DD38CBB0052481C /* Models */,
+				DB3BE89B1DD38CB20052481C /* Views */,
+				DB3BE89D1DD38CC10052481C /* Controllers */,
+				DB80D1B61DD111F2004B86B6 /* ArrowDream.entitlements */,
 				DB80D1861DD10EAC004B86B6 /* AppDelegate.swift */,
-				DB80D1881DD10EAC004B86B6 /* ViewController.swift */,
 				DB80D18A1DD10EAC004B86B6 /* Main.storyboard */,
 				DB80D18D1DD10EAC004B86B6 /* Assets.xcassets */,
 				DB80D18F1DD10EAC004B86B6 /* LaunchScreen.storyboard */,
 				DB80D1921DD10EAC004B86B6 /* Info.plist */,
+				DB80D1B41DD1119D004B86B6 /* GoogleService-Info.plist */,
 			);
 			path = ArrowDream;
 			sourceTree = "<group>";
@@ -125,6 +201,19 @@
 			path = ArrowDreamUITests;
 			sourceTree = "<group>";
 		};
+		EFF5C13CEA5E75B5F00805AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				620AA3F374D48244EBD8938E /* Pods-ArrowDream.debug.xcconfig */,
+				D3BFFD5751F9AC5CD0365D45 /* Pods-ArrowDream.release.xcconfig */,
+				5C40A52D981AA4111C4348C5 /* Pods-ArrowDreamTests.debug.xcconfig */,
+				2CB2652176C0E59C8D1323C9 /* Pods-ArrowDreamTests.release.xcconfig */,
+				552DEB383B47BB7F5043877A /* Pods-ArrowDreamUITests.debug.xcconfig */,
+				35543E80E78BBE1EF95E65B5 /* Pods-ArrowDreamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB80D1AB1DD10EAD004B86B6 /* Build configuration list for PBXNativeTarget "ArrowDream" */;
 			buildPhases = (
+				A0BFF303DB46B51DA228EB49 /* [CP] Check Pods Manifest.lock */,
 				DB80D17F1DD10EAC004B86B6 /* Sources */,
 				DB80D1801DD10EAC004B86B6 /* Frameworks */,
 				DB80D1811DD10EAC004B86B6 /* Resources */,
+				3B09CB31E7CC9DE1DA5AD454 /* [CP] Embed Pods Frameworks */,
+				83560862E8F2FD356E972E86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB80D1AE1DD10EAD004B86B6 /* Build configuration list for PBXNativeTarget "ArrowDreamTests" */;
 			buildPhases = (
+				D83366AFFE432EAC110A32B5 /* [CP] Check Pods Manifest.lock */,
 				DB80D1931DD10EAD004B86B6 /* Sources */,
 				DB80D1941DD10EAD004B86B6 /* Frameworks */,
 				DB80D1951DD10EAD004B86B6 /* Resources */,
+				62EEFB40D9DE32A67CC55CF4 /* [CP] Embed Pods Frameworks */,
+				FD240B47D8BDFABCC623A136 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB80D1B11DD10EAD004B86B6 /* Build configuration list for PBXNativeTarget "ArrowDreamUITests" */;
 			buildPhases = (
+				AD722E7412A97CDB0991AD33 /* [CP] Check Pods Manifest.lock */,
 				DB80D19E1DD10EAD004B86B6 /* Sources */,
 				DB80D19F1DD10EAD004B86B6 /* Frameworks */,
 				DB80D1A01DD10EAD004B86B6 /* Resources */,
+				D6E4C952FE8CD81DB75E0123 /* [CP] Embed Pods Frameworks */,
+				00D5235B618E28A265400514 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +293,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 4YBGQSFC2V;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					DB80D1961DD10EAD004B86B6 = {
 						CreatedOnToolsVersion = 8.1;
@@ -236,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB80D1911DD10EAC004B86B6 /* LaunchScreen.storyboard in Resources */,
+				DB80D1B51DD1119D004B86B6 /* GoogleService-Info.plist in Resources */,
 				DB80D18E1DD10EAC004B86B6 /* Assets.xcassets in Resources */,
 				DB80D18C1DD10EAC004B86B6 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +361,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00D5235B618E28A265400514 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrowDreamUITests/Pods-ArrowDreamUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B09CB31E7CC9DE1DA5AD454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrowDream/Pods-ArrowDream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62EEFB40D9DE32A67CC55CF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrowDreamTests/Pods-ArrowDreamTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83560862E8F2FD356E972E86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrowDream/Pods-ArrowDream-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0BFF303DB46B51DA228EB49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD722E7412A97CDB0991AD33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E4C952FE8CD81DB75E0123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrowDreamUITests/Pods-ArrowDreamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83366AFFE432EAC110A32B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD240B47D8BDFABCC623A136 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrowDreamTests/Pods-ArrowDreamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB80D17F1DD10EAC004B86B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB80D1891DD10EAC004B86B6 /* ViewController.swift in Sources */,
+				DB80D1891DD10EAC004B86B6 /* LoginController.swift in Sources */,
+				DB17D8E21DD300A500183207 /* Extensions.swift in Sources */,
+				DB9BA91F1DE8260A00285AFB /* CustomButton.swift in Sources */,
+				DB3BE89F1DD39AFC0052481C /* LoginView.swift in Sources */,
 				DB80D1871DD10EAC004B86B6 /* AppDelegate.swift in Sources */,
+				DB1AB9081DD606380073B172 /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +582,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -358,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,6 +633,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -402,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -413,10 +661,13 @@
 		};
 		DB80D1AC1DD10EAD004B86B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620AA3F374D48244EBD8938E /* Pods-ArrowDream.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArrowDream/ArrowDream.entitlements;
 				DEVELOPMENT_TEAM = 4YBGQSFC2V;
 				INFOPLIST_FILE = ArrowDream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orion.ArrowDream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +677,13 @@
 		};
 		DB80D1AD1DD10EAD004B86B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BFFD5751F9AC5CD0365D45 /* Pods-ArrowDream.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ArrowDream/ArrowDream.entitlements;
 				DEVELOPMENT_TEAM = 4YBGQSFC2V;
 				INFOPLIST_FILE = ArrowDream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orion.ArrowDream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +693,7 @@
 		};
 		DB80D1AF1DD10EAD004B86B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C40A52D981AA4111C4348C5 /* Pods-ArrowDreamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +709,7 @@
 		};
 		DB80D1B01DD10EAD004B86B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB2652176C0E59C8D1323C9 /* Pods-ArrowDreamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +725,7 @@
 		};
 		DB80D1B21DD10EAD004B86B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552DEB383B47BB7F5043877A /* Pods-ArrowDreamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4YBGQSFC2V;
@@ -483,6 +740,7 @@
 		};
 		DB80D1B31DD10EAD004B86B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35543E80E78BBE1EF95E65B5 /* Pods-ArrowDreamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4YBGQSFC2V;
@@ -514,6 +772,7 @@
 				DB80D1AD1DD10EAD004B86B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB80D1AE1DD10EAD004B86B6 /* Build configuration list for PBXNativeTarget "ArrowDreamTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +781,7 @@
 				DB80D1B01DD10EAD004B86B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB80D1B11DD10EAD004B86B6 /* Build configuration list for PBXNativeTarget "ArrowDreamUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +790,7 @@
 				DB80D1B31DD10EAD004B86B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
