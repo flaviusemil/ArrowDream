@@ -16,6 +16,7 @@ class LoginController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate 
     func buttonClicked() {
         let view = MainController()
         self.present(view, animated: true, completion: nil)
+        // test
     }
     
     override func viewDidLoad() {
