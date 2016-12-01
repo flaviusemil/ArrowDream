@@ -1,0 +1,6 @@
+framework module Pods_ArrowDream {
+  umbrella header "Pods-ArrowDream-umbrella.h"
+
+  export *
+  module * { export * }
+}
